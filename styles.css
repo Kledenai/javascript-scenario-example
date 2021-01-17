@@ -58,7 +58,7 @@
  
  .map {
     image-rendering: pixelated;
-    background-image: url("./CameraDemoMap.png");
+    background-image: url("./assets/map.png");
     background-size: 100%;
     width: calc(13 * var(--grid-cell));
     height: calc(10 * var(--grid-cell));
@@ -84,7 +84,7 @@
  
  .character_spritesheet {
     position: absolute;
-    background: url("./WalkingDemo-ZAK-SHEET.png") no-repeat no-repeat;
+    background: url("./assets/character.png") no-repeat no-repeat;
     background-size: 100%;
     width: calc( var(--grid-cell)* 8 );
     height: calc( var(--grid-cell)* 8 );
